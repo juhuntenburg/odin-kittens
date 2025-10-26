@@ -8,3 +8,21 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+.flash {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.flash.notice {
+    background-color: #e6ffed;
+    border: 1px solid #2ecc71;
+    color: #1a7f37;
+}
+
+.flash.alert {
+    background-color: #ffe6e6;
+    border: 1px solid #e74c3c;
+    color: #b30000;
+}
